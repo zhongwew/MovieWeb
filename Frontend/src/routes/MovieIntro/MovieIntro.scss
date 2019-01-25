@@ -1,0 +1,38 @@
+.movie-intro-container {
+  padding: 20px;
+  display: flex;
+  background: white;
+
+  .poster {
+    img {
+      margin-right: 20px;
+      max-width: 160px;
+      border-radius: 5px;
+    }
+  }
+
+  .movie-info {
+    .title {
+      font-size: 1.3em;
+      color: #222;
+    }
+
+    .content {
+      .star-name {
+        padding: 3px;
+        color: #0f88eb;
+        border-radius: 3px;
+        transition: all .5s;
+        
+        &:hover {
+          color: white;
+          background: #0f88eb;
+        }
+      }
+    }
+
+    .buy {
+      margin-top: 10px;
+    }
+  }
+}

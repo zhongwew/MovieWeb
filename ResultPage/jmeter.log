@@ -1,0 +1,45 @@
+2018-03-16 15:22:19,924 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-03-16 15:22:19,948 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/4.0/libexec/bin/user.properties
+2018-03-16 15:22:19,949 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/4.0/libexec/bin/system.properties
+2018-03-16 15:22:19,956 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-03-16 15:22:19,956 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-03-16 15:22:19,956 INFO o.a.j.JMeter: java.version=1.8.0_131
+2018-03-16 15:22:19,957 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-03-16 15:22:19,957 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-03-16 15:22:19,957 INFO o.a.j.JMeter: os.arch=x86_64
+2018-03-16 15:22:19,957 INFO o.a.j.JMeter: os.version=10.13.4
+2018-03-16 15:22:19,957 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-03-16 15:22:19,957 INFO o.a.j.JMeter: Max memory     =1073741824
+2018-03-16 15:22:19,957 INFO o.a.j.JMeter: Available Processors =4
+2018-03-16 15:22:19,961 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-03-16 15:22:19,962 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-03-16 15:22:19,962 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/4.0/libexec
+2018-03-16 15:22:19,962 INFO o.a.j.JMeter: user.dir  =/Users/haiguai/workspace/cs122b-winter18-team-26/Project5/ResultPage
+2018-03-16 15:22:19,962 INFO o.a.j.JMeter: PWD       =/Users/haiguai/workspace/cs122b-winter18-team-26/Project5/ResultPage
+2018-03-16 15:22:19,963 INFO o.a.j.JMeter: IP: 169.234.89.64 Name: dhcp-v089-064.mobile.uci.edu FullName: dhcp-v089-064.mobile.uci.edu
+2018-03-16 15:22:22,676 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2018-03-16 15:22:22,694 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2018-03-16 15:22:22,694 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2018-03-16 15:22:22,817 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-03-16 15:22:23,730 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-03-16 15:22:23,730 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-03-16 15:22:26,130 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-16 15:22:26,131 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-16 15:22:26,132 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-16 15:22:26,132 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-03-16 15:22:26,132 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-03-16 15:22:26,132 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-03-16 15:22:26,648 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-03-16 15:22:26,649 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/4.0/libexec/bin/proxyserver.jks
+2018-03-16 15:22:26,856 INFO o.a.j.s.FileServer: Default base='/Users/haiguai/workspace/cs122b-winter18-team-26/Project5/ResultPage'
+2018-03-16 15:22:27,299 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-03-16 15:22:27,299 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-03-16 15:22:27,299 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-03-16 15:22:27,299 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-03-16 15:22:32,541 INFO o.a.j.g.a.Load: Loading file: /Users/haiguai/Fabflix Test Plan.jmx
+2018-03-16 15:22:32,541 INFO o.a.j.s.FileServer: Set new base='/Users/haiguai'
+2018-03-16 15:22:32,669 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-03-16 15:22:32,684 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-03-16 15:22:32,686 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-03-16 15:22:32,689 INFO o.a.j.s.SaveService: Loading file: /Users/haiguai/Fabflix Test Plan.jmx
+2018-03-16 15:22:33,062 INFO o.a.j.s.FileServer: Set new base='/Users/haiguai'

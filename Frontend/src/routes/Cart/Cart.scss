@@ -1,0 +1,35 @@
+.cart-container {
+  background: white;
+  padding: 20px;
+
+  .cart-header {
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 2px solid rgba(30, 35, 42, 0.06);
+
+    .title-item {
+      width: 35%;
+      font-size: 1.3em;
+    }
+  }
+
+  .checkout-container {
+    text-align: right;
+  }
+
+  .transaction-container {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid rgba(30, 35, 42, 0.06);
+  }
+
+  .place-order-container {
+    padding-top: 20px;
+    text-align: center;
+    border-top: 2px solid rgba(30, 35, 42, 0.06);
+  }
+}

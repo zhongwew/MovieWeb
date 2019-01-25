@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FabflixMobile</string>
+
+    <!--Menu-->
+    <string name="movie_results">Movies</string>
+    <string name="star_results">Stars</string>
+
+    <!--Common Resource-->
+    <string name="host">http://18.222.3.139:8080//MovieServer</string>
+    <string name="success">Success</string>
+    <string name="thumbnail">thumbnail</string>
+
+    <!--Routes-->
+    <string name="login_route">/Login</string>
+    <string name="search_route">/NormalSearch</string>
+
+    <!--Login Activity Resource-->
+    <string name="login_btn_title">Login</string>
+    <string name="email_input_placeholder">Email</string>
+    <string name="password_input_placeholder">Password</string>
+
+    <!--Search Activity Resource-->
+    <string name="search_activity_title">Search Page</string>
+    <string name="search_btn_title">Search</string>
+    <string name="search_input_placeholder">Enter a keyword</string>
+
+    <!--Movie Results Activity Resource-->
+    <string name="movie_results_title">Movie Results</string>
+
+    <!--Star Results Activity Resource-->
+    <string name="star_results_title">Star Results</string>
+</resources>

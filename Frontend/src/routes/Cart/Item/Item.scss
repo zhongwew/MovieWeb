@@ -1,0 +1,36 @@
+.cart-item-container {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(30,35,42,.06);
+
+  .movie-info {
+    display: flex;
+    width: 40%;
+
+    .poster {
+      margin-right: 20px;
+
+      img {
+        max-width: 70px;
+        border-radius: 5px;
+      }
+    }
+
+    .movie-detail {
+      .title > a {
+        color: #222;
+        font-size: 1.3em;
+        
+        &:hover {
+          color: #1890ff;
+        }
+      }
+    }
+  }
+
+  .quantity {
+  }
+}

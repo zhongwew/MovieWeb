@@ -1,0 +1,28 @@
+/* nav panel styles */
+.nav-panel {
+  width: 100%;
+  max-height: 0px;
+  padding: 0;
+  background: white;
+  /* box-shadow: 0 1px 3px 0 rgba(0,34,77,.05); */
+  overflow: hidden;
+  border-bottom: none;
+  transition: .5s all,
+}
+
+.nav-panel > .wrapper {
+  padding: 20px 0;
+  display: flex;
+  background: white;
+}
+
+/* panel list styles */
+.panel-lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* panel item styles */
+.nav-panel > .wrapper .panel-item {
+  margin: 10px 10px;
+}

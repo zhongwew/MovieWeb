@@ -1,0 +1,37 @@
+.search-container {
+  background: white;
+  padding: 20px;
+
+  .search-results-container {
+    .search-movie-results {
+      div {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+    .search-star-results {
+      div {
+        display: flex;
+        justify-content: space-around;
+
+        a {
+          padding: 3px;
+          color: #0f88eb;
+          border-radius: 3px;
+          transition: all .5s;
+          
+          &:hover {
+            color: white;
+            background: #0f88eb;
+          }
+        }
+      }
+    }
+
+    h1 {
+      text-align: center;
+      border-bottom: 2px solid rgba(30, 35, 42, 0.06);
+    }
+  }
+}

@@ -1,0 +1,114 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: linen;
+}
+
+td {
+    border-top-style: solid;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <tr style="font-weight:bold; background-color: orange">
+    <td width="300px">Single-instance version cases</td>
+    <td>Graph Results Screenshot</td>
+    <td>Average Query Time(ms)</td>
+    <td>Average Search Servlet Time(ms)</td>
+    <td>Average JDBC Time(ms)</td>
+    <td>Analysis</td>
+  </tr>
+  <tr>
+    <td>Case 1: HTTP/1 thread</td>
+    <td><img src="screenshots/Single 1 thread.png" alt="Graph Results Screenshot Case 1" style="width:304px;height:228px;"></td>
+    <td>359187476.47863245</td>
+    <td>377129482.17094016</td>
+    <td>377068073.7777778</td>
+    <td>This is the normal request for 1 user visiting the website in every 1 second.</td>
+  </tr>
+  <tr>
+    <td>Case 2: HTTP/10 threads</td>
+    <td><img src="screenshots/Single 10 thread.png" alt="Graph Results Screenshot Case 2" style="width:304px;height:228px;"></td>
+    <td>2117912019.2074468</td>
+    <td>2144941407.7943263</td>
+    <td>2144923534.5992908</td>
+    <td>When 10 users visit the website in every 1 second, the throughput will increase.</td>
+  </tr>
+  <tr>
+    <td>Case 3: HTTPS/10 threads</td>
+    <td><img src="screenshots/Single 10 thread https.png" alt="Graph Results Screenshot Case 3" style="width:304px;height:228px;"></td>
+    <td>3030457061.769231 </td>
+    <td>3112346011.5798817</td>
+    <td>3106253214.4349113</td>
+    <td>Using HTTPS will take more time to make each query because of the SSL layer.</td>
+  </tr>
+  <tr>
+    <td>Case 4: HTTP/10 threads/No prepared statements</td>
+    <td><img src="screenshots/Single 10 thread nopre stmt.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+    <td>3132205429.3895707 </td>
+    <td>3260388498.969325</td>
+    <td>3260101748.8957057</td>
+    <td>Compared to the normal situation, it takes more time to make each query without using Prepared Statement.</td>
+  </tr>
+  <tr>
+    <td>Case 5: HTTP/10 threads/No connection pooling</td>
+    <td><img src="screenshots/Single 10 thread no pooling.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+    <td>3078975567.8246155 </td>
+    <td>3212427717.769231</td>
+    <td>3212162601.310769</td>
+    <td>Compared to the normal situation, it takes more time to make each query without using Database connection pooling.</td>
+  </tr>
+
+</table> 
+
+
+<table style="width:100%">
+  <tr style="font-weight:bold; background-color: orange">
+    <td width="300px">Scaled version cases</td>
+    <td>Graph Results Screenshot</td>
+    <td>Average Query Time(ms)</td>
+    <td>Average Search Servlet Time(ms)</td>
+    <td>Average JDBC Time(ms)</td>
+    <td>Analysis</td>
+  </tr>
+  <tr>
+    <td>Case 1: HTTP/1 thread</td>
+    <td><img src="screenshots/Scaled 1 thread.png" alt="Graph Results Screenshot Case 1" style="width:304px;height:228px;"></td>
+    <td>359187476.47863245</td>
+    <td>377129482.17094016</td>
+    <td>377068073.7777778</td>
+    <td>Because the Apache Load Balancer has to route the requests to different instances, it takes more time to response.</td>
+  </tr>
+  <tr>
+    <td>Case 2: HTTP/10 threads</td>
+    <td><img src="screenshots/Scaled 10 thread.png" alt="Graph Results Screenshot Case 2" style="width:304px;height:228px;"></td>
+    <td>672065551.305</td>
+    <td>697286828.005</td>
+    <td>697268172.495</td>
+    <td>Compared to the situation that 1 user visit the website, it takes less time to make a response when 10 users visit it.</td>
+  </tr>
+  <tr>
+    <td>Case 3: HTTP/10 threads/No prepared statements</td>
+    <td><img src="screenshots/Scaled 10 thread no pre stmt.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+    <td>799822942.8873874 </td>
+    <td>825542723.0405406</td>
+    <td>825516363.3558558</td>
+    <td>Compared to the Case 2, it takes more time to response to client without using Prepared Statements.</td>
+  </tr>
+  <tr>
+    <td>Case 4: HTTP/10 threads/No connection pooling</td>
+    <td><img src="screenshots/Scaled 10 thread no pooling.png" alt="Graph Results Screenshot Case 4" style="width:304px;height:228px;"></td>
+    <td>1512800002.4324324</td>
+    <td>1660460097.591892</td>
+    <td>1660435997.608108</td>
+    <td>Compared to the Case 2, it takes more time to response to client without using connection pooling.</td>
+  </tr>
+
+</table> 
+
+</body>
+</html>

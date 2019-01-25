@@ -1,0 +1,7 @@
+// action types
+export const SCROLL_START_LOAD = 'SCROLL_START_LOAD';
+export const SCROLL_SET_RESULTS = 'SCROLL_SET_RESULTS';
+export const SCROLL_RESET = 'SCROLL_RESET';
+
+export const SCROLL_UPDATE_PAGE = 'SCROLL_UPDATE_PAGE';
+export const SCROLL_UPDATE_COUNT = 'SCROLL_UPDATE_COUNT';
